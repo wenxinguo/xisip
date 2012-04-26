@@ -1,0 +1,423 @@
+output/pjsua-arm-apple-darwin9/main.o: ../src/pjsua/main.c ../../pjsip/include/pjsua-lib/pjsua.h \
+  ../../pjsip/include/pjsip.h ../../pjsip/include/pjsip/sip_types.h \
+  ../../pjsip/include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+  ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/TargetConditionals.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/Availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/AvailabilityInternal.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/bin/../lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  ../../pjsip/include/pjsip/sip_autoconf.h \
+  ../../pjsip/include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/bin/../lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h \
+  ../../pjsip/include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../../pjsip/include/pjsip/sip_tel_uri.h \
+  ../../pjsip/include/pjsip/sip_msg.h \
+  ../../pjsip/include/pjsip/sip_multipart.h \
+  ../../pjsip/include/pjsip/sip_parser.h \
+  ../../pjsip/include/pjsip/sip_event.h \
+  ../../pjsip/include/pjsip/sip_module.h \
+  ../../pjsip/include/pjsip/sip_endpoint.h \
+  ../../pjsip/include/pjsip/sip_transport.h \
+  ../../pjsip/include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+  ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+  ../../pjsip/include/pjsip/sip_util.h \
+  ../../pjsip/include/pjsip/sip_transport_udp.h \
+  ../../pjsip/include/pjsip/sip_transport_loop.h \
+  ../../pjsip/include/pjsip/sip_transport_tcp.h \
+  ../../pjlib/include/pj/sock_qos.h \
+  ../../pjsip/include/pjsip/sip_transport_tls.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/ssl_sock.h \
+  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/cdefs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_posix_availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/Availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/strings.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_common.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdio.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_stdio.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/wait.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/mach/arm/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/resource.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdint.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/arch.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/alloca.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_types.h \
+  ../../pjsip/include/pjsip/sip_auth.h \
+  ../../pjsip/include/pjsip/sip_auth_msg.h \
+  ../../pjsip/include/pjsip/sip_auth_aka.h \
+  ../../pjsip/include/pjsip/sip_transaction.h \
+  ../../pjsip/include/pjsip/sip_ua_layer.h \
+  ../../pjsip/include/pjsip/sip_dialog.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia.h ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../../pjmedia/include/pjmedia/alaw_ulaw.h \
+  ../../pjmedia/include/pjmedia/bidirectional.h \
+  ../../pjmedia/include/pjmedia/port.h ../../pjlib/include/pj/os.h \
+  ../../pjmedia/include/pjmedia/circbuf.h \
+  ../../pjmedia/include/pjmedia/clock.h \
+  ../../pjmedia/include/pjmedia/codec.h \
+  ../../pjmedia/include/pjmedia/conference.h \
+  ../../pjmedia/include/pjmedia/delaybuf.h \
+  ../../pjmedia/include/pjmedia/echo.h \
+  ../../pjmedia/include/pjmedia/echo_port.h \
+  ../../pjmedia/include/pjmedia/errno.h \
+  ../../pjmedia/include/pjmedia/endpoint.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/g711.h \
+  ../../pjmedia/include/pjmedia-codec/types.h \
+  ../../pjmedia/include/pjmedia-codec/config.h \
+  ../../pjmedia/include/pjmedia-codec/config_auto.h \
+  ../../pjmedia/include/pjmedia/jbuf.h \
+  ../../pjmedia/include/pjmedia/master_port.h \
+  ../../pjmedia/include/pjmedia/mem_port.h \
+  ../../pjmedia/include/pjmedia/null_port.h \
+  ../../pjmedia/include/pjmedia/plc.h \
+  ../../pjmedia/include/pjmedia/resample.h \
+  ../../pjmedia/include/pjmedia/rtcp.h \
+  ../../pjmedia/include/pjmedia/rtcp_xr.h ../../pjlib/include/pj/math.h \
+  ../../pjlib/include/pj/compat/high_precision.h \
+  ../../pjmedia/include/pjmedia/rtp.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/session.h \
+  ../../pjmedia/include/pjmedia/stream.h \
+  ../../pjmedia/include/pjmedia/transport.h \
+  ../../pjmedia/include/pjmedia/silencedet.h \
+  ../../pjmedia/include/pjmedia/sound.h \
+  ../../pjmedia/include/pjmedia-audiodev/audiodev.h \
+  ../../pjmedia/include/pjmedia-audiodev/config.h \
+  ../../pjmedia/include/pjmedia-audiodev/errno.h \
+  ../../pjmedia/include/pjmedia/sound_port.h \
+  ../../pjmedia/include/pjmedia/splitcomb.h \
+  ../../pjmedia/include/pjmedia/stereo.h \
+  ../../pjmedia/include/pjmedia/tonegen.h \
+  ../../pjmedia/include/pjmedia/transport_adapter_sample.h \
+  ../../pjmedia/include/pjmedia/transport_ice.h \
+  ../../pjnath/include/pjnath/ice_strans.h \
+  ../../pjnath/include/pjnath/ice_session.h \
+  ../../pjnath/include/pjnath/types.h \
+  ../../pjnath/include/pjnath/config.h \
+  ../../pjnath/include/pjnath/stun_session.h \
+  ../../pjnath/include/pjnath/stun_msg.h \
+  ../../pjnath/include/pjnath/stun_auth.h \
+  ../../pjnath/include/pjnath/stun_config.h \
+  ../../pjnath/include/pjnath/stun_transaction.h \
+  ../../pjnath/include/pjnath/errno.h \
+  ../../pjnath/include/pjnath/stun_sock.h \
+  ../../pjnath/include/pjnath/turn_sock.h \
+  ../../pjnath/include/pjnath/turn_session.h \
+  ../../pjmedia/include/pjmedia/transport_loop.h \
+  ../../pjmedia/include/pjmedia/transport_srtp.h \
+  ../../pjmedia/include/pjmedia/transport_udp.h \
+  ../../pjmedia/include/pjmedia/wav_playlist.h \
+  ../../pjmedia/include/pjmedia/wav_port.h \
+  ../../pjmedia/include/pjmedia/wave.h \
+  ../../pjmedia/include/pjmedia/wsola.h \
+  ../../pjmedia/include/pjmedia-codec.h \
+  ../../pjmedia/include/pjmedia-codec/l16.h \
+  ../../pjmedia/include/pjmedia-codec/gsm.h \
+  ../../pjmedia/include/pjmedia-codec/speex.h \
+  ../../pjmedia/include/pjmedia-codec/ilbc.h \
+  ../../pjmedia/include/pjmedia-codec/g722.h \
+  ../../pjmedia/include/pjmedia-codec/g7221.h \
+  ../../pjmedia/include/pjmedia-codec/ipp_codecs.h \
+  ../../pjmedia/include/pjmedia-codec/passthrough.h \
+  ../../pjmedia/include/pjmedia-codec/opencore_amrnb.h \
+  ../../pjsip/include/pjsip_ua.h ../../pjsip/include/pjsip-ua/sip_inv.h \
+  ../../pjsip/include/pjsip-ua/sip_regc.h \
+  ../../pjsip/include/pjsip-ua/sip_replaces.h \
+  ../../pjsip/include/pjsip-ua/sip_xfer.h \
+  ../../pjsip/include/pjsip-simple/evsub.h \
+  ../../pjsip/include/pjsip-simple/types.h \
+  ../../pjsip/include/pjsip-ua/sip_100rel.h \
+  ../../pjsip/include/pjsip-ua/sip_timer.h \
+  ../../pjsip/include/pjsip_simple.h \
+  ../../pjsip/include/pjsip-simple/evsub_msg.h \
+  ../../pjsip/include/pjsip-simple/iscomposing.h \
+  ../../pjlib-util/include/pjlib-util/xml.h \
+  ../../pjsip/include/pjsip-simple/mwi.h \
+  ../../pjsip/include/pjsip-simple/presence.h \
+  ../../pjsip/include/pjsip-simple/pidf.h \
+  ../../pjsip/include/pjsip-simple/xpidf.h \
+  ../../pjsip/include/pjsip-simple/rpid.h \
+  ../../pjsip/include/pjsip-simple/publish.h \
+  ../../pjnath/include/pjnath.h ../../pjnath/include/pjnath/nat_detect.h \
+  ../../pjlib-util/include/pjlib-util.h \
+  ../../pjlib-util/include/pjlib-util/errno.h \
+  ../../pjlib-util/include/pjlib-util/getopt.h \
+  ../../pjlib-util/include/pjlib-util/base64.h \
+  ../../pjlib-util/include/pjlib-util/crc32.h \
+  ../../pjlib-util/include/pjlib-util/hmac_md5.h \
+  ../../pjlib-util/include/pjlib-util/md5.h \
+  ../../pjlib-util/include/pjlib-util/hmac_sha1.h \
+  ../../pjlib-util/include/pjlib-util/sha1.h \
+  ../../pjlib-util/include/pjlib-util/srv_resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns_server.h \
+  ../../pjlib-util/include/pjlib-util/stun_simple.h \
+  ../../pjlib-util/include/pjlib-util/pcap.h \
+  ../../pjlib-util/include/pjlib-util/http_client.h \
+  ../../pjlib/include/pj/activesock.h ../../pjlib/include/pjlib.h \
+  ../../pjlib/include/pj/addr_resolv.h ../../pjlib/include/pj/array.h \
+  ../../pjlib/include/pj/ctype.h ../../pjlib/include/pj/compat/ctype.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/ctype.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/runetype.h \
+  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/setjmp.h \
+  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
+  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
+  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
+  ../../pjlib/include/pj/ip_helper.h ../../pjlib/include/pj/lock.h \
+  ../../pjlib/include/pj/pool_buf.h ../../pjlib/include/pj/rand.h \
+  ../../pjlib/include/pj/rbtree.h ../../pjlib/include/pj/sock_select.h \
+  ../../pjlib/include/pj/unicode.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/signal.h
+output/pjsua-arm-apple-darwin9/pjsua_app.o: ../src/pjsua/pjsua_app.c \
+  ../../pjsip/include/pjsua-lib/pjsua.h ../../pjsip/include/pjsip.h \
+  ../../pjsip/include/pjsip/sip_types.h \
+  ../../pjsip/include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+  ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/TargetConditionals.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/Availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/AvailabilityInternal.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/bin/../lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  ../../pjsip/include/pjsip/sip_autoconf.h \
+  ../../pjsip/include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/bin/../lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h \
+  ../../pjsip/include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../../pjsip/include/pjsip/sip_tel_uri.h \
+  ../../pjsip/include/pjsip/sip_msg.h \
+  ../../pjsip/include/pjsip/sip_multipart.h \
+  ../../pjsip/include/pjsip/sip_parser.h \
+  ../../pjsip/include/pjsip/sip_event.h \
+  ../../pjsip/include/pjsip/sip_module.h \
+  ../../pjsip/include/pjsip/sip_endpoint.h \
+  ../../pjsip/include/pjsip/sip_transport.h \
+  ../../pjsip/include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+  ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+  ../../pjsip/include/pjsip/sip_util.h \
+  ../../pjsip/include/pjsip/sip_transport_udp.h \
+  ../../pjsip/include/pjsip/sip_transport_loop.h \
+  ../../pjsip/include/pjsip/sip_transport_tcp.h \
+  ../../pjlib/include/pj/sock_qos.h \
+  ../../pjsip/include/pjsip/sip_transport_tls.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/ssl_sock.h \
+  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/cdefs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_posix_availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/Availability.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/strings.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_string.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_common.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdio.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/secure/_stdio.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/wait.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/signal.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/mach/arm/_structs.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/resource.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_endian.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdint.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/arch.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/alloca.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/types.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/_types.h \
+  ../../pjsip/include/pjsip/sip_auth.h \
+  ../../pjsip/include/pjsip/sip_auth_msg.h \
+  ../../pjsip/include/pjsip/sip_auth_aka.h \
+  ../../pjsip/include/pjsip/sip_transaction.h \
+  ../../pjsip/include/pjsip/sip_ua_layer.h \
+  ../../pjsip/include/pjsip/sip_dialog.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia.h ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../../pjmedia/include/pjmedia/alaw_ulaw.h \
+  ../../pjmedia/include/pjmedia/bidirectional.h \
+  ../../pjmedia/include/pjmedia/port.h ../../pjlib/include/pj/os.h \
+  ../../pjmedia/include/pjmedia/circbuf.h \
+  ../../pjmedia/include/pjmedia/clock.h \
+  ../../pjmedia/include/pjmedia/codec.h \
+  ../../pjmedia/include/pjmedia/conference.h \
+  ../../pjmedia/include/pjmedia/delaybuf.h \
+  ../../pjmedia/include/pjmedia/echo.h \
+  ../../pjmedia/include/pjmedia/echo_port.h \
+  ../../pjmedia/include/pjmedia/errno.h \
+  ../../pjmedia/include/pjmedia/endpoint.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/g711.h \
+  ../../pjmedia/include/pjmedia-codec/types.h \
+  ../../pjmedia/include/pjmedia-codec/config.h \
+  ../../pjmedia/include/pjmedia-codec/config_auto.h \
+  ../../pjmedia/include/pjmedia/jbuf.h \
+  ../../pjmedia/include/pjmedia/master_port.h \
+  ../../pjmedia/include/pjmedia/mem_port.h \
+  ../../pjmedia/include/pjmedia/null_port.h \
+  ../../pjmedia/include/pjmedia/plc.h \
+  ../../pjmedia/include/pjmedia/resample.h \
+  ../../pjmedia/include/pjmedia/rtcp.h \
+  ../../pjmedia/include/pjmedia/rtcp_xr.h ../../pjlib/include/pj/math.h \
+  ../../pjlib/include/pj/compat/high_precision.h \
+  ../../pjmedia/include/pjmedia/rtp.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/session.h \
+  ../../pjmedia/include/pjmedia/stream.h \
+  ../../pjmedia/include/pjmedia/transport.h \
+  ../../pjmedia/include/pjmedia/silencedet.h \
+  ../../pjmedia/include/pjmedia/sound.h \
+  ../../pjmedia/include/pjmedia-audiodev/audiodev.h \
+  ../../pjmedia/include/pjmedia-audiodev/config.h \
+  ../../pjmedia/include/pjmedia-audiodev/errno.h \
+  ../../pjmedia/include/pjmedia/sound_port.h \
+  ../../pjmedia/include/pjmedia/splitcomb.h \
+  ../../pjmedia/include/pjmedia/stereo.h \
+  ../../pjmedia/include/pjmedia/tonegen.h \
+  ../../pjmedia/include/pjmedia/transport_adapter_sample.h \
+  ../../pjmedia/include/pjmedia/transport_ice.h \
+  ../../pjnath/include/pjnath/ice_strans.h \
+  ../../pjnath/include/pjnath/ice_session.h \
+  ../../pjnath/include/pjnath/types.h \
+  ../../pjnath/include/pjnath/config.h \
+  ../../pjnath/include/pjnath/stun_session.h \
+  ../../pjnath/include/pjnath/stun_msg.h \
+  ../../pjnath/include/pjnath/stun_auth.h \
+  ../../pjnath/include/pjnath/stun_config.h \
+  ../../pjnath/include/pjnath/stun_transaction.h \
+  ../../pjnath/include/pjnath/errno.h \
+  ../../pjnath/include/pjnath/stun_sock.h \
+  ../../pjnath/include/pjnath/turn_sock.h \
+  ../../pjnath/include/pjnath/turn_session.h \
+  ../../pjmedia/include/pjmedia/transport_loop.h \
+  ../../pjmedia/include/pjmedia/transport_srtp.h \
+  ../../pjmedia/include/pjmedia/transport_udp.h \
+  ../../pjmedia/include/pjmedia/wav_playlist.h \
+  ../../pjmedia/include/pjmedia/wav_port.h \
+  ../../pjmedia/include/pjmedia/wave.h \
+  ../../pjmedia/include/pjmedia/wsola.h \
+  ../../pjmedia/include/pjmedia-codec.h \
+  ../../pjmedia/include/pjmedia-codec/l16.h \
+  ../../pjmedia/include/pjmedia-codec/gsm.h \
+  ../../pjmedia/include/pjmedia-codec/speex.h \
+  ../../pjmedia/include/pjmedia-codec/ilbc.h \
+  ../../pjmedia/include/pjmedia-codec/g722.h \
+  ../../pjmedia/include/pjmedia-codec/g7221.h \
+  ../../pjmedia/include/pjmedia-codec/ipp_codecs.h \
+  ../../pjmedia/include/pjmedia-codec/passthrough.h \
+  ../../pjmedia/include/pjmedia-codec/opencore_amrnb.h \
+  ../../pjsip/include/pjsip_ua.h ../../pjsip/include/pjsip-ua/sip_inv.h \
+  ../../pjsip/include/pjsip-ua/sip_regc.h \
+  ../../pjsip/include/pjsip-ua/sip_replaces.h \
+  ../../pjsip/include/pjsip-ua/sip_xfer.h \
+  ../../pjsip/include/pjsip-simple/evsub.h \
+  ../../pjsip/include/pjsip-simple/types.h \
+  ../../pjsip/include/pjsip-ua/sip_100rel.h \
+  ../../pjsip/include/pjsip-ua/sip_timer.h \
+  ../../pjsip/include/pjsip_simple.h \
+  ../../pjsip/include/pjsip-simple/evsub_msg.h \
+  ../../pjsip/include/pjsip-simple/iscomposing.h \
+  ../../pjlib-util/include/pjlib-util/xml.h \
+  ../../pjsip/include/pjsip-simple/mwi.h \
+  ../../pjsip/include/pjsip-simple/presence.h \
+  ../../pjsip/include/pjsip-simple/pidf.h \
+  ../../pjsip/include/pjsip-simple/xpidf.h \
+  ../../pjsip/include/pjsip-simple/rpid.h \
+  ../../pjsip/include/pjsip-simple/publish.h \
+  ../../pjnath/include/pjnath.h ../../pjnath/include/pjnath/nat_detect.h \
+  ../../pjlib-util/include/pjlib-util.h \
+  ../../pjlib-util/include/pjlib-util/errno.h \
+  ../../pjlib-util/include/pjlib-util/getopt.h \
+  ../../pjlib-util/include/pjlib-util/base64.h \
+  ../../pjlib-util/include/pjlib-util/crc32.h \
+  ../../pjlib-util/include/pjlib-util/hmac_md5.h \
+  ../../pjlib-util/include/pjlib-util/md5.h \
+  ../../pjlib-util/include/pjlib-util/hmac_sha1.h \
+  ../../pjlib-util/include/pjlib-util/sha1.h \
+  ../../pjlib-util/include/pjlib-util/srv_resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns_server.h \
+  ../../pjlib-util/include/pjlib-util/stun_simple.h \
+  ../../pjlib-util/include/pjlib-util/pcap.h \
+  ../../pjlib-util/include/pjlib-util/http_client.h \
+  ../../pjlib/include/pj/activesock.h ../../pjlib/include/pjlib.h \
+  ../../pjlib/include/pj/addr_resolv.h ../../pjlib/include/pj/array.h \
+  ../../pjlib/include/pj/ctype.h ../../pjlib/include/pj/compat/ctype.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/ctype.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/runetype.h \
+  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/machine/setjmp.h \
+  /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/arm/setjmp.h \
+  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
+  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
+  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
+  ../../pjlib/include/pj/ip_helper.h ../../pjlib/include/pj/lock.h \
+  ../../pjlib/include/pj/pool_buf.h ../../pjlib/include/pj/rand.h \
+  ../../pjlib/include/pj/rbtree.h ../../pjlib/include/pj/sock_select.h \
+  ../../pjlib/include/pj/unicode.h ../src/pjsua/gui.h
+../bin/pjsua-arm-apple-darwin9: /Users/dratek/work/sip/pjsip-xixi/pjsip/lib/libpjsua-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjsip/lib/libpjsip-ua-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjsip/lib/libpjsip-simple-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjsip/lib/libpjsip-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjmedia/lib/libpjmedia-codec-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjmedia/lib/libpjmedia-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjmedia/lib/libpjmedia-audiodev-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjnath/lib/libpjnath-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjlib-util/lib/libpjlib-util-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libresample-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libmilenage-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libsrtp-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libgsmcodec-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libspeex-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libilbccodec-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/third_party/lib/libg7221codec-arm-apple-darwin9.a /Users/dratek/work/sip/pjsip-xixi/pjlib/lib/libpj-arm-apple-darwin9.a

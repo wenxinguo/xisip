@@ -318,7 +318,7 @@
 					USE_GUI,
 				);
 				INFOPLIST_FILE = "ipjsua-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../third_party/lib\"",
@@ -347,7 +347,7 @@
 					USE_GUI,
 				);
 				INFOPLIST_FILE = "ipjsua-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../third_party/lib\"",
@@ -379,7 +379,7 @@
 					../../../pjnath/include,
 					../../../pjmedia/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					../../../pjlib/lib,
 					"../../../pjlib-util/lib",
@@ -410,7 +410,7 @@
 					../../../pjnath/include,
 					../../../pjmedia/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					../../../pjlib/lib,
 					"../../../pjlib-util/lib",
